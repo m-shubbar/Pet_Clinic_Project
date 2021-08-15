@@ -1,4 +1,4 @@
-package ca.shubbar.petclinic.model;
+package ca.shubbar.model;
 
 /**
  * @author Mustafa <codingbox@outlook.com>
