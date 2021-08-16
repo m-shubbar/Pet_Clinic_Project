@@ -1,9 +1,9 @@
-package ca.shubbar.model;
+package ca.shubbar.petclinic.model;
 
 /**
  * @author Mustafa <codingbox@outlook.com>
  * Created at 2021-08-14
  */
-public class Owner extends Person{
+public class Vet extends Person {
 
 }

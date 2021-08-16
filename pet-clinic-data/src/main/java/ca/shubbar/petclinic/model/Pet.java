@@ -1,4 +1,4 @@
-package ca.shubbar.model;
+package ca.shubbar.petclinic.model;
 
 import java.time.LocalDate;
 
