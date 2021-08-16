@@ -4,7 +4,7 @@ package ca.shubbar.petclinic.model;
  * @author Mustafa <codingbox@outlook.com>
  * Created at 2021-08-14
  */
-public class Person {
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;

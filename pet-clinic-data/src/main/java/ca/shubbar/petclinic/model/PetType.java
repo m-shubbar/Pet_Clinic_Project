@@ -4,7 +4,7 @@ package ca.shubbar.petclinic.model;
  * @author Mustafa <codingbox@outlook.com>
  * Created at 2021-08-14
  */
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 
