@@ -1,7 +1,7 @@
 package ca.shubbar.petclinic.services.map;
 
 import ca.shubbar.petclinic.model.Pet;
-import ca.shubbar.petclinic.services.CrudService;
+import ca.shubbar.petclinic.services.PetService;
 
 import java.util.Set;
 
@@ -9,7 +9,7 @@ import java.util.Set;
  * @author Mustafa <codingbox@outlook.com>
  * Created at 2021-08-16
  */
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
