@@ -2,6 +2,7 @@ package ca.shubbar.petclinic.services.map;
 
 import ca.shubbar.petclinic.model.Owner;
 import ca.shubbar.petclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -9,6 +10,8 @@ import java.util.Set;
  * @author Mustafa <codingbox@outlook.com>
  * Created at 2021-08-16
  */
+
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
