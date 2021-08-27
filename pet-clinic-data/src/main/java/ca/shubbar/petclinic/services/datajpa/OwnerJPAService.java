@@ -47,7 +47,6 @@ public class OwnerJPAService implements OwnerService {
 
     @Override
     public Owner findById(Long aLong) {
-
         /*
         Optional<Owner> optionalOwner =  ownerRepository.findById(aLong);
         if(optionalOwner.isPresent()) {
@@ -64,6 +63,11 @@ public class OwnerJPAService implements OwnerService {
 
     @Override
     public Owner save(Owner object) {
+        // Double check that this is the JPA Service
+        System.out.println("##################################");
+        System.out.println("This is from JPA Service save()");
+        System.out.println("##################################");
+
         return ownerRepository.save(object);
     }
 
