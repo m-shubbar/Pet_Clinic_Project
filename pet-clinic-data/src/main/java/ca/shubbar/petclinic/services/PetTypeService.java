@@ -7,4 +7,5 @@ import ca.shubbar.petclinic.model.PetType;
  * Created at 2021-08-23
  */
 public interface PetTypeService extends CrudService<PetType, Long> {
+
 }
