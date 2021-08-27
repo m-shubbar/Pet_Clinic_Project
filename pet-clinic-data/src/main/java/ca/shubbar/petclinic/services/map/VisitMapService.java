@@ -2,6 +2,7 @@ package ca.shubbar.petclinic.services.map;
 
 import ca.shubbar.petclinic.model.Visit;
 import ca.shubbar.petclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -9,6 +10,7 @@ import java.util.Set;
  * @author Mustafa <codingbox@outlook.com>
  * Created at 2021-08-26
  */
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
