@@ -80,6 +80,9 @@ public class DataLoader implements CommandLineRunner {
         mustafasPet.setName("Belly");
         owner1.getPets().add(mustafasPet);
 
+        // nice little addition to use the builder() lombok annotation
+        // Owner.builder().address("ABCD Address").build();
+
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
